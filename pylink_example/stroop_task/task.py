@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-#
-# Filename: Stroop_task.py
-# Author: Zhiguo Wang
-# Date: 2/6/2021
-#
-# Description:
-# A Stroop task implemented in PsychoPy
-
 import pylink
 import os
 import random
