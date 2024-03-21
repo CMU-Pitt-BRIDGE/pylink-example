@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pylink-example"
+version = "0.1.0"
+description = "PyLink Example"
+authors = ["Eduardo Diniz <edd32@pitt.edu>"]
+readme = "README.md"
+repository = "https://github.com/"
+packages = [{ include = "pylink_example" }]
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+psychopy = { extras = ["all"], version = "2023.2.3" }
+sr-research-pylink = "2.1.762"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.27.0"
+
+[[tool.poetry.source]]
+name = "sr-research"
+url = "https://pypi.sr-research.com"
+priority = "supplemental"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
