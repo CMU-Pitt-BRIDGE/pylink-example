@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "PyLink Example"
 authors = ["Eduardo Diniz <edd32@pitt.edu>"]
 readme = "README.md"
-repository = "https://github.com/"
+repository = "https://github.com/CMU-Pitt-BRIDGE/pylink-example"
 packages = [{ include = "pylink_example" }]
 
 [tool.poetry.dependencies]
