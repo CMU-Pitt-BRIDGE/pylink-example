@@ -2,7 +2,7 @@ import pylink
 import os
 import random
 from psychopy import visual, core, event, monitors
-from ..EyeLinkCoreGraphicsPsychoPy import EyeLinkCoreGraphicsPsychoPy
+from .EyeLinkCoreGraphicsPsychoPy import EyeLinkCoreGraphicsPsychoPy
 
 # Monitor resolution
 SCN_W, SCN_H = (1280, 800)
